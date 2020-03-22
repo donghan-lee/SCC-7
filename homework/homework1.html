@@ -139,24 +139,28 @@
         let name = $("#input_name").val();
         if (name == "") {
           alert("이름을 입력하세요.");
+          $("#input_name").focus();
           return;
         }
 
         let count = $("#inputGroupSelect01").val();
         if (count == 0) {
           alert("수량을 선택하세요.");
+          $("#inputGroupSelect01").focus();
           return;
         }
 
         let address = $("#input_address").val();
         if (address == "") {
           alert("주소를 입력하세요.");
+          $("#input_address").focus();
           return;
         }
 
         let number = $("#input_number").val();
         if (number == "") {
           alert("전화번호를 입력하세요.");
+          $("#input_number").focus();
           return;
         }
       }
