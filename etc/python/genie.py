@@ -18,6 +18,6 @@ for chart in charts:
 
     # [rank] title / artist
 
-    song = '['+rank+'] '+title+' / '+artist
+    song = '[' + rank + '] ' + title + ' / ' + artist
     # song = '[{}] {} / {}'.format(rank, title, artist)
     print(song)
